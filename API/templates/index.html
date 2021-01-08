@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="/predict" method="POST">
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="e.g Alex Smith">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control">
+      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control">
+      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control">
+      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+    </div>
+  </div>
+  <div class="field has-text-centered">
+    <div class="control">
+      <button class="button is-link" type="submit" value="Submit">Make the prediction</button>
+    </div>
+  </div>
+</form>
+{% endblock %}
