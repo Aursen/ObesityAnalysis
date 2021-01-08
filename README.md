@@ -6,6 +6,17 @@
 </h1>
 
 ## Table of contents
+  * [Usage](#usage)
+  * [Responsive Website](#responsive_website)
+  * [Features](#features)
   * [License](#license)
+
+## Usage
+
+## Responsive Website
+
+## Features
+- [X] Predictions by website
+- [X] Predictions by API
 
 ## License
