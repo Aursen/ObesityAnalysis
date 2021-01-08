@@ -7,7 +7,7 @@
 
 ## Table of contents
   * [Usage](#usage)
-  * [Responsive Website](#responsive_website)
+  * [Responsive Website](#responsive-website)
   * [Features](#features)
   * [License](#license)
 
