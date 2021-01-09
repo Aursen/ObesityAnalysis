@@ -9,11 +9,11 @@
           <label class="label">What is your gender ?</label>
           <div class="control">
             <label class="radio">
-              <input type="radio" name="gender">
+              <input type="radio" name="Gender" value="male" required>
               Male
             </label>
             <label class="radio">
-              <input type="radio" name="gender">
+              <input type="radio" name="Gender" value="female" required>
               Female
             </label>
           </div>
@@ -23,7 +23,7 @@
       <div class="field">
         <label class="label">What is your age ?</label>
         <div class="control">
-          <input class="input" type="number" placeholder="e.g. 20">
+          <input class="input" type="number" name="Age" placeholder="e.g. 20" required>
         </div>
       </div>
 
@@ -31,10 +31,10 @@
         <label class="label">Do you usually eat vegetables in your meals ?</label>
         <div class="control">
           <div class="select">
-            <select>
-              <option>Never</option>
-              <option>Sometimes</option>
-              <option>Always</option>
+            <select name="FCVC">
+              <option value="1">Never</option>
+              <option value="2">Sometimes</option>
+              <option value="3">Always</option>
             </select>
           </div>
         </div>
@@ -46,10 +46,10 @@
         <label class="label">How many main meals do you have daily ?</label>
         <div class="control">
           <div class="select">
-            <select>
-              <option>Between 1 and 2</option>
-              <option>Three</option>
-              <option>More than three</option>
+            <select name="NCP">
+              <option value="2">Between 1 and 2</option>
+              <option value="3">Three</option>
+              <option value="4">More than three</option>
             </select>
           </div>
         </div>
@@ -59,11 +59,11 @@
         <label class="label">Has a family member suffered or suffers from overweight ?</label>
         <div class="control">
           <label class="radio">
-            <input type="radio" name="family">
+            <input type="radio" name="Family" value="yes" required>
             Yes
           </label>
           <label class="radio">
-            <input type="radio" name="family">
+            <input type="radio" name="Family" value="no" required>
             No
           </label>
         </div>
@@ -73,11 +73,11 @@
         <label class="label">Do you eat any food between meals ?</label>
         <div class="control">
           <div class="select">
-            <select>
-              <option>No</option>
-              <option>Sometimes</option>
-              <option>Frequently</option>
-              <option>Always</option>
+            <select name="CAEC">
+              <option value="0">No</option>
+              <option value="1">Sometimes</option>
+              <option value="2">Frequently</option>
+              <option value="3">Always</option>
             </select>
           </div>
         </div>
@@ -89,10 +89,10 @@
         <label class="label">How much water do you drink daily ?</label>
         <div class="control">
           <div class="select">
-            <select>
-              <option>Less than a liter</option>
-              <option>Between 1 and 2 L</option>
-              <option>More than 2 L</option>
+            <select name="CH2O">
+              <option value="1">Less than a liter</option>
+              <option value="2">Between 1 and 2 L</option>
+              <option value="3">More than 2 L</option>
             </select>
           </div>
         </div>
@@ -102,11 +102,11 @@
         <label class="label">How often do you have physical activity ?</label>
         <div class="control">
           <div class="select">
-            <select>
-              <option>I do not have</option>
-              <option>1 or 2 days</option>
-              <option>2 or 4 days</option>
-              <option>4 or 5 days</option>
+            <select name="FAF">
+              <option value="0">I do not have</option>
+              <option value="1">1 or 2 days</option>
+              <option value="2">2 or 4 days</option>
+              <option value="3">4 or 5 days</option>
             </select>
           </div>
         </div>
@@ -116,11 +116,11 @@
         <label class="label">How often do you drink alcohol ?</label>
         <div class="control">
           <div class="select">
-            <select>
-              <option>No</option>
-              <option>Sometimes</option>
-              <option>Frequently</option>
-              <option>Always</option>
+            <select name="CALC">
+              <option value="0">No</option>
+              <option value="1">Sometimes</option>
+              <option value="2">Frequently</option>
+              <option value="3">Always</option>
             </select>
           </div>
         </div>
