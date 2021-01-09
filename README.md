@@ -18,7 +18,7 @@ This is a project for our school based on a columbian study.
 
 ## Notebook
 
-[Go to the study](../blob/main/main.ipynb)
+[Go to the study](../main/main.ipynb)
 
 ## Requirements
 
