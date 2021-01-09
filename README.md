@@ -7,9 +7,11 @@
 
 ## Introduction
 
-**WARNING**: This is a school project. Not to be used in any other context!
+**WARNING**: This is a project for our school. Not to be used in any other context!
 
-This project is based on a columbian study. Globally we found that Random Forest is the best algorithm to predict 
+We worked on the Dataset for estimation of obesity levels based on eating habits and physical condition in individuals from Colombia, Peru and Mexico.
+Globally we found that Random Forest is the best algorithm to predict obesity levels. 
+For more informations about the model's choice and features selected go to the notebook's section.
 
 ## Table of contents
   * [Notebook](#Notebook)
