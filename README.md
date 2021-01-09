@@ -70,6 +70,7 @@ And you will received a json.
 ├── images                              # Contains images for the repo's screenshots
 │   ├── website.jpg                     # The mockup of the website      
 ├── ObesityDataSet.csv                  # The data used in the study
+├── Report.pptx                         # The PowerPoint of the study
 ├── main.ipynb                          # The notebook of the study
 ├── model.pkl                           # The dump of the model selected in the notebook
 ```
