@@ -2,30 +2,96 @@
 
 {% block content %}
 <form action="/predict" method="POST">
-  <div class="field">
-    <label class="label">Gender</label>
-    <div class="control">
-      <input class="input" type="text" placeholder="e.g Alex Smith">
+  <div class="columns">
+
+    <div class="column">
+      
+      <div class="field">
+        <div class="field">
+          <label class="label">What is your gender ?</label>
+          <div class="control">
+            <label class="radio">
+              <input type="radio" name="gender">
+              Male
+            </label>
+            <label class="radio">
+              <input type="radio" name="gender">
+              Female
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">What is your age ?</label>
+        <div class="control">
+          <input class="input" type="number" placeholder="e.g. 20">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Do you usually eat vegetables in your meals ?</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Never</option>
+              <option>Sometimes</option>
+              <option>Always</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">How many main meals do you have daily ?</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Between 1 and 2</option>
+              <option>Three</option>
+              <option>More than three</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Has a family member suffered or suffers from overweight ?</label>
+        <div class="control">
+          <label class="radio">
+            <input type="radio" name="family">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" name="family">
+            No
+          </label>
+        </div>
+      </div>
+      
     </div>
-  </div>
-  <div class="field">
-    <label class="label">Age</label>
-    <div class="control">
-      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+
+    <div class="column">
+
+      <div class="field">
+        <label class="label">Do you eat any food between meals ?</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>No</option>
+              <option>Sometimes</option>
+              <option>Frequently</option>
+              <option>Always</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </div>
+
+
+
   </div>
-  <div class="field">
-    <label class="label">Height</label>
-    <div class="control">
-      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
-    </div>
-  </div>
-  <div class="field">
-    <label class="label">Weight</label>
-    <div class="control">
-      <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
-    </div>
-  </div>
+
   <div class="field has-text-centered">
     <div class="control">
       <button class="button is-link" type="submit" value="Submit">Make the prediction</button>
